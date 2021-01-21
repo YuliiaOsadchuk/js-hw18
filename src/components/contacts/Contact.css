@@ -1,0 +1,29 @@
+.contact {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+.contact .contact-info {
+  padding: 10px 20px;
+}
+.contact .contact-info .contact-name {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact .contact-info .contact-name .first-name {
+  padding-right: 10px;
+}
+.contact .contact-info .phone-number {
+  color: grey;
+  font-size: 16px;
+}
+.contact img {
+  width: 75px;
+}
